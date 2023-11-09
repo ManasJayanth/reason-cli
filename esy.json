@@ -3,8 +3,38 @@
   "esy": {
     "release": {
       "rewritePrefix": true,
-      "bin": ["refmt", "rtop", "ocamlc", "ocamlopt", "ocaml", "ocamlrun"],
-      "includePackages": ["root", "@opam/reason", "@opam/rtop", "ocaml"]
+      "bin": [
+        "refmt",
+        "rtop",
+        "ocamlc",
+        "ocamlopt",
+        "ocaml",
+        "ocamlrun"
+      ],
+      "includePackages": [
+        "root",
+        "@opam/reason",
+        "@opam/rtop",
+        "@opam/lwt",
+        "@opam/lambda-term",
+        "@opam/xdg",
+        "@opam/ocamlfind",
+        "@opam/utop",
+        "@opam/logs",
+        "@opam/zed",
+        "@opam/lwt_react",
+        "@opam/mew_vi",
+        "@opam/uucp",
+        "@opam/ocplib-endian",
+        "@opam/react",
+        "ocaml",
+        "@opam/mew",
+        "@opam/result",
+        "@opam/trie",
+        "@opam/uchar",
+        "@opam/uuseg",
+        "@opam/uutf"
+      ]
     }
   },
   "dependencies": {
