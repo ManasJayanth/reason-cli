@@ -1,0 +1,19 @@
+{
+  "name": "@prometheansacrifice/reason-cli",
+  "esy": {
+    "release": {
+      "rewritePrefix": true,
+      "bin": ["refmt", "rtop", "ocamlc", "ocamlopt", "ocaml", "ocamlrun"],
+      "includePackages": ["root", "@opam/reason", "@opam/rtop", "ocaml"]
+    }
+  },
+  "dependencies": {
+    "ocaml": "5.x",
+    "@opam/reason": "*",
+    "@opam/rtop": "*"
+  },
+  "resolutions": {
+    "@opam/reason": "ManasJayanth/reason:reason.opam#848ddb1178fc61094a84b5921612dfb1a45c2a3",
+    "@opam/rtop": "ManasJayanth/reason:rtop.opam#848ddb1178fc61094a84b5921612dfb1a45c2a3"
+  }
+}
