@@ -19,20 +19,26 @@ print_usage () {
 
 case "$1" in
     -h* | --help)
-	print_usage;
-        exit 0 ;;
+	    print_usage;
+      exit 0 ;;
+
     install)
-	esy install
-	;;
+	    esy install $*
+	    ;;
+
     build)
-	esy
-	;;
+      shift;
+	    esy $*
+	    ;;
+
     repl)
-	rtop
-	;;
+      shift;
+	    rtop $*
+      ;;
+
     *)
-	echo "Unrecognised command: $1"
-	;;
+	    echo "Unrecognised command: $1"
+	    ;;
 esac
 
 
