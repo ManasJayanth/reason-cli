@@ -1,9 +1,13 @@
 {
   "name": "@prometheansacrifice/reason-cli",
   "esy": {
+    "build": "cp reason-cli.sh #{self.bin}/reason-cli",
+    "exportedEnv": {
+      "PATH": { "scope": "global", "val": "#{ $PATH : self.bin}" }
+    },
     "release": {
       "rewritePrefix": true,
-      "bin": ["refmt", "rtop", "ocamlc", "ocamlopt", "ocaml", "ocamlrun", "dune", "esy"],
+      "bin": ["reason-cli"],
       "includePackages": [
         "root",
         "@opam/reason",
@@ -27,8 +31,9 @@
         "@opam/uchar",
         "@opam/uuseg",
         "@opam/uutf",
-	"esy-cli",
-	"@opam/dune"
+        "esy-cli",
+	"esy-zlib",
+        "@opam/dune"
       ]
     }
   },
@@ -36,7 +41,7 @@
     "ocaml": "4.14.0",
     "@opam/reason": "*",
     "@opam/dune": "*",
-    "esy-cli": "https://github.com/esy/esy/releases/download/0.7.2/source.tgz#d879ec9ca3e553fb9f13706c3253ccdb40e6f791",
+    "esy-cli": "https://github.com/esy/esy/releases/download/0.7.2/source.tgz#sha1:164cc0fc1468fc09410db97cb40133215619754d",
     "@opam/rtop": "*"
   },
   "resolutions": {

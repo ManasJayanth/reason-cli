@@ -1,5 +1,5 @@
 {
-  "checksum": "6baa731ebcbb18d6b7135e36d265d357",
+  "checksum": "ca3670e23ac2b892b302b4c316f6f66b",
   "root": "@prometheansacrifice/reason-cli@link-dev:./esy.json",
   "node": {
     "yarn-pkg-config@github:esy-ocaml/yarn-pkg-config#db3a0b63883606dd57c54a7158d560d6cba8cd79@d41d8cd9": {
@@ -58,14 +58,14 @@
       "dependencies": [],
       "devDependencies": []
     },
-    "esy-cli@archive:https://github.com/esy/esy/releases/download/0.7.2/source.tgz#sha1:d879ec9ca3e553fb9f13706c3253ccdb40e6f791@d41d8cd9": {
-      "id": "esy-cli@archive:https://github.com/esy/esy/releases/download/0.7.2/source.tgz#sha1:d879ec9ca3e553fb9f13706c3253ccdb40e6f791@d41d8cd9",
+    "esy-cli@archive:https://github.com/esy/esy/releases/download/0.7.2/source.tgz#sha1:164cc0fc1468fc09410db97cb40133215619754d@d41d8cd9": {
+      "id": "esy-cli@archive:https://github.com/esy/esy/releases/download/0.7.2/source.tgz#sha1:164cc0fc1468fc09410db97cb40133215619754d@d41d8cd9",
       "name": "esy-cli",
-      "version": "archive:https://github.com/esy/esy/releases/download/0.7.2/source.tgz#sha1:d879ec9ca3e553fb9f13706c3253ccdb40e6f791",
+      "version": "archive:https://github.com/esy/esy/releases/download/0.7.2/source.tgz#sha1:164cc0fc1468fc09410db97cb40133215619754d",
       "source": {
         "type": "install",
         "source": [
-          "archive:https://github.com/esy/esy/releases/download/0.7.2/source.tgz#sha1:d879ec9ca3e553fb9f13706c3253ccdb40e6f791"
+          "archive:https://github.com/esy/esy/releases/download/0.7.2/source.tgz#sha1:164cc0fc1468fc09410db97cb40133215619754d"
         ]
       },
       "overrides": [],
@@ -162,7 +162,7 @@
       "overrides": [],
       "dependencies": [
         "ocaml@4.14.0@d41d8cd9",
-        "esy-cli@archive:https://github.com/esy/esy/releases/download/0.7.2/source.tgz#sha1:d879ec9ca3e553fb9f13706c3253ccdb40e6f791@d41d8cd9",
+        "esy-cli@archive:https://github.com/esy/esy/releases/download/0.7.2/source.tgz#sha1:164cc0fc1468fc09410db97cb40133215619754d@d41d8cd9",
         "@opam/rtop@github:ManasJayanth/reason:rtop.opam#848ddb1178fc61094a84b5921612dfb1a45c2a3@d41d8cd9",
         "@opam/reason@github:ManasJayanth/reason:reason.opam#848ddb1178fc61094a84b5921612dfb1a45c2a3@d41d8cd9",
         "@opam/dune@opam:3.6.2@e0fa23ed"
