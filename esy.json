@@ -3,14 +3,7 @@
   "esy": {
     "release": {
       "rewritePrefix": true,
-      "bin": [
-        "refmt",
-        "rtop",
-        "ocamlc",
-        "ocamlopt",
-        "ocaml",
-        "ocamlrun"
-      ],
+      "bin": ["refmt", "rtop", "ocamlc", "ocamlopt", "ocaml", "ocamlrun", "dune", "esy"],
       "includePackages": [
         "root",
         "@opam/reason",
@@ -33,13 +26,17 @@
         "@opam/trie",
         "@opam/uchar",
         "@opam/uuseg",
-        "@opam/uutf"
+        "@opam/uutf",
+	"esy-cli",
+	"@opam/dune"
       ]
     }
   },
   "dependencies": {
-    "ocaml": "5.x",
+    "ocaml": "4.14.0",
     "@opam/reason": "*",
+    "@opam/dune": "*",
+    "esy-cli": "https://github.com/esy/esy/releases/download/0.7.2/source.tgz#d879ec9ca3e553fb9f13706c3253ccdb40e6f791",
     "@opam/rtop": "*"
   },
   "resolutions": {
