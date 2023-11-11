@@ -22,6 +22,18 @@ esy release
 cd _release
 npm pack 
 npm publish ./prometheansacrifice-reason-cli-0.0.0.tgz
+# or
+npm i -g ./prometheansacrifice-reason-cli-0.0.0.tgz
+```
+
+## Usage
+
+```
+--help                          Show this help message
+install                         Install the project dependencies package.json. Uses esy internally.
+build                           Build the project with instructions in package.json. Uses esy internally.
+repl                            Build the project with instructions in package.json. Uses rtop
+
 ```
 
 ## Status
